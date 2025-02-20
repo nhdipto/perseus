@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    margin: 2em 0; /* Gap between sections */
+    padding: 2em;
+    border-radius: 10px;
+}
+
+.hero {
+    background-color: #FFD700; /* Gold */
+    color: #000;
+    text-align: center;
+}
+
+.featured {
+    background-color: #87CEFA; /* Light Sky Blue */
+    text-align: center;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em; /* Gap between products */
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 1em;
+    flex: 1 1 150px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.about {
+    background-color: #FFB6C1; /* Light Pink */
+}
+
+.about-intro {
+    margin-bottom: 1.5em; /* Space between intro and values */
+}
+
+.about-values {
+    background-color: #FFC0CB; /* Pink */
+    padding: 1em;
+    border-radius: 8px;
+}
+
+.testimonials {
+    background-color: #98FB98; /* Pale Green */
+}
+
+.testimonial {
+    margin-bottom: 1em; /* Space between testimonials */
+    padding: 1em;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.gallery {
+    background-color: #DDA0DD; /* Plum */
+}
+
+.gallery-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em; /* Gap between images */
+}
+
+.gallery-item {
+    border: 1px solid #ddd;
+    padding: 1em;
+    flex: 1 1 150px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.faq {
+    background-color: #FFDEAD; /* Navajo White */
+}
+
+.faq-item {
+    margin-bottom: 1em; /* Space between FAQ items */
+    padding: 1em;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.contact {
+    background-color: #AFEEEE; /* Pale Turquoise */
+}
+
+.contact-info {
+    margin-bottom: 1.5em; /* Space between info and form */
+}
+
+.contact-form {
+    background-color: #E0FFFF; /* Light Cyan */
+    padding: 1em;
+    border-radius: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 0.5em;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
