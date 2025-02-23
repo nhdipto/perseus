@@ -8,24 +8,23 @@ body {
 h2{
     color: black;
 }
+
 .hero {
     background: #504B38;
     width: 100%;
     height: 100px;
-    padding: 1em;
+    padding: 0em;
     text-align: center;
     color: white;
-    position: fixed;
+    position: relative;
     z-index: 1;
 }
 .header {
-    position: fixed;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    align-items: center;
-    width: 100%;  
-    align-items: center;
+    width: 100%;
     gap: 15px;
     z-index: 1;
 }
@@ -77,7 +76,7 @@ body {
 /* Navbar Styling */
 .navbar {
     position: relative;
-    margin-top: 150px;
+    margin-top: 5px;
     background-color: black; /* Dark Blue */
     width: 100%;    
     display: flex;
@@ -111,8 +110,7 @@ body {
 
 /* Hover Effect */
 .nav-item:hover {
-    font-size: 22px;
-    border: 1px solid white;
+    font-size: 19px;
 }
 
 /* Icon that appears on hover */
@@ -129,7 +127,7 @@ body {
     font-size: 20px;
 }
 
-.nav-item[data-icon="fa-watch"]::after { content: "\f2e1"; }  /* Watch Icon */
+.nav-item[data-icon="fa-cart"]::after { content: "\f217"; }  /* Watch Icon */
 .nav-item[data-icon="fa-info-circle"]::after { content: "\f05a"; }  /* Info Icon */
 .nav-item[data-icon="fa-envelope"]::after { content: "\f0e0"; }  /* Envelope Icon */
 .nav-item[data-icon="fa-star"]::after { content: "\f005"; }  /* Star Icon */
@@ -146,41 +144,43 @@ body {
 .product-overlay {
     position: relative;
     display: flex;
-    flex-direction: column;
-    gap: 15px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 25px;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .product {
-    background: black;
-    padding: 1em;
-    margin: 0 10px;
-    border-radius: 8px;
-    width: 120px;
+    position: relative;
+    background: #504B38;
+    padding: 3em;
+    margin: 0 0px;
+    border-radius: 25px;
+    width: 200px;
 }
+
 
 .about {
     background-color: #F8F3D9;
     color: black;
     padding: 2em;
-    text-align: center;
+    text-align: left;
 }
 
 .gallery {
-    /* background: radial-gradient(ellipse at top left, #0f172a, #334155); */
     background-color: #F8F3D9;
-    padding: 2em;
+    padding: 7em;
     text-align: center;
 }
 
 .gallery-item {
-    background: black; 
+    background: #504B38; 
     margin: 10px;
     display: inline-block;
-    padding: 20px;
-    border-radius: 10px;
-    width: 150px;
+    padding: 7px;
+    border-radius: 7px;
+    width: 200px;
     color: white;
 }
 
@@ -257,7 +257,7 @@ body {
     margin: 2em 0;
 }
 .countdown {
-    background: wheat;
+    background: #d4cb97;
     color: black;
     text-align: center;
     padding: 2em;
@@ -300,9 +300,13 @@ body {
 }
 
 .testimonial {
-    flex: 0 0 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid black;
     padding: 2em;
     transition: transform 5s ease-in-out;
+    gap: 20px;
 }
 
 
