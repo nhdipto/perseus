@@ -72,27 +72,22 @@ section {
 }
 
 .navbar .nav-links {
-    height: 30px;
-    margin-bottom: 0.5%;
-    background-color: #27374D;
     border-radius: 5px;
     list-style: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-left: 50%;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 50px;
     
 }
 
 .navbar .nav-links li a {
-    padding: 5px;
+    padding: 10px;
     text-decoration: none;    
     color: white;
     font-size: 18px;
-    font-weight: 500;
-    
-    
-    transition: color 0.3s; 
+    font-weight: 400;
 }
 
 .navbar .nav-links li a:hover {
@@ -196,8 +191,8 @@ section {
 .gallery-grid {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    gap: 1em; /* Gap between images */
 }
 
 .gallery-item {
@@ -206,7 +201,7 @@ section {
     flex: 1 1 150px;
     text-align: center;
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 5px;    
 }
 
 .faq {
