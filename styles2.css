@@ -24,7 +24,8 @@ section {
 
 /* Header Start */
 .hero {
-    background-color: #27374D; /* Gold */
+    /* background-color: #27374D; */
+    background: linear-gradient(to right, #0f172a, #334155);
     color: white;
     text-align: center;
 }
@@ -35,6 +36,7 @@ section {
     align-items: center;
     width: 100%;
     background-color: #27374D;   
+    /* background: linear-gradient(to right, #0f172a, #334155); */
     align-items: center;
     gap: 15px;
 }
@@ -72,7 +74,7 @@ section {
 .navbar .nav-links {
     height: 30px;
     margin-bottom: 0.5%;
-    background-color: #526D82;
+    background-color: #27374D;
     border-radius: 5px;
     list-style: none;
     display: flex;
@@ -83,7 +85,7 @@ section {
 }
 
 .navbar .nav-links li a {
-    padding: 10px;
+    padding: 5px;
     text-decoration: none;    
     color: white;
     font-size: 18px;
@@ -95,7 +97,7 @@ section {
 
 .navbar .nav-links li a:hover {
     cursor: pointer;
-    color: #27374D;
+    color: #526D82;
     border: 0.5px solid black;   
 }
 
@@ -177,7 +179,7 @@ section {
 }
 
 .testimonials {
-    background-color: #98FB98; /* Pale Green */
+    background-color: #526D82; /* Pale Green */
 }
 
 .testimonial {
@@ -188,7 +190,7 @@ section {
 }
 
 .gallery {
-    background-color: #DDA0DD; /* Plum */
+    background-color: #9DB2BF; /* Plum */
 }
 
 .gallery-grid {
@@ -208,7 +210,7 @@ section {
 }
 
 .faq {
-    background-color: #FFDEAD; /* Navajo White */
+    background-color: #DDE6ED; /* Navajo White */
 }
 
 .faq-item {
@@ -219,11 +221,11 @@ section {
 }
 
 .contact {
-    background-color: #AFEEEE; /* Pale Turquoise */
+    background-color: #526D82;
 }
 
 .contact-info {
-    margin-bottom: 1.5em; /* Space between info and form */
+    margin-bottom: 1.5em;
 }
 
 .contact-form {
