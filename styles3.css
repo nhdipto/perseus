@@ -285,8 +285,8 @@ body {
 }
 
 .newsletter input {
-    padding: 0.5em;
-    margin: 0.5em;
+    padding: 1em 1em;
+    margin: 1em;
     border-radius: 5px;
 }
 
@@ -296,7 +296,16 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition-duration: 0.3s;
 }
+
+.newsletter button:hover{
+    transform: scale(1.2);
+    font-weight: bolder;
+    border: 1px solid black ;
+
+}
+
 .testimonials-carousel {
     background-color: #e3e3e3;
     padding: 2em;
