@@ -56,13 +56,24 @@ h2{
     border: 2px dashed white;
     border-radius: 50%;    
     height: 80px;
+    transition: transform 0.8s ease-in-out
+    
     
 }
-
+@keyframes flipAnimation {
+    0% {
+        transform: perspective(800px) rotateY(0deg);
+    }
+    50% {
+        transform: perspective(800px) rotateY(180deg);
+    }
+    100% {
+        transform: perspective(800px) rotateY(360deg);
+    }
+}
 .logo img:hover {
-    border: 2px dashed white;
-    border-radius: 50%;    
-    height: 80px;
+    animation: flipAnimation 0.8s ease-in-out forwards;
+
     
 }
 
@@ -142,13 +153,12 @@ body {
 }
 
 .product-overlay {
-    position: relative;
-    display: flex;
+    display: flex;    
+    align-items: center;
+    justify-content: center;    
     flex-wrap: wrap;
     flex-direction: row;
     gap: 25px;
-    align-items: center;
-    justify-content: center;
 }
 
 .product {
