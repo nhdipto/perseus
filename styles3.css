@@ -328,5 +328,41 @@ body {
     gap: 20px;
 }
 
-
+.slider {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    padding: 20px 0;
+}
+.slider::before, .slider::after {
+    width: 100px;
+    content: "";
+    position: relative;
+    top: 0;
+    z-index: 2;
+}
+.slider .logos {
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    animation: scroll 10s linear infinite;
+}
+.slider .logos img {
+    max-width: 100px;
+    height: auto;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.8));
+}
+.slider .logos:hover {
+    animation-play-state: paused;
+}
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
 
