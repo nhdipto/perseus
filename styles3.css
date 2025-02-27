@@ -166,7 +166,7 @@ body {
 .him { 
     grid-row: 1 / 4;
     grid-column: 1 / 4;
-    background-color: cyan;
+    background-color: plum;
     opacity: 70%;
 }
 
@@ -183,7 +183,7 @@ body {
     border: #000000 1px solid;}
 
 .her{  
-    background-color: #6366f1;
+    background-color: palegreen;
     grid-row: 3 / 6;
     grid-column: 3 / 6;
     opacity: 70%;
@@ -240,7 +240,7 @@ body {
     border-radius: 15px;    
     background: lavender;
     display: grid;
-    grid-template-columns: 350px 350px 350px 350px;
+    grid-template-columns: repeat(5,1fr);
     grid-template-rows: 350px 350px;
     margin: 20px 0px;
     line-height: 100px;
