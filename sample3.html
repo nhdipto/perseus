@@ -32,6 +32,7 @@
             <li><a href="" class="nav-item" data-icon="fa-star">Reviews</a></li>
         </ul>
     </nav>
+    <button class="menu-btn" id="menuToggle">☰</button>
 
 
     <section class="promo-banner">
@@ -70,15 +71,19 @@
         <br>
         <div class="product-overlay">
             <div class="him">
-                <h1>For Her</h1>            
+                        <video width="100%" autoplay loop muted>
+                            <source src="/men.mp4" type="video/mp4">
+                        </video>
+                        <br>
+                        <h>For Him</h>
             </div>
             <div class="her">
-                <h1>For Him</h1>
+                <video width="100%" autoplay loop muted>
+                    <source src="/women.mp4" type="video/mp4">
+                </video>
+                <br>
+                <h>For Her</h>
             </div>
-            
-            
-                       
-                        
         </div>        
     </section>
 <hr>
@@ -199,6 +204,11 @@
     <script src="js/countdown.js"></script>
     <script src="js/carousel.js"></script>
     <script src="js/accordion.js"></script>
+    <script>
+        document.getElementById('menuToggle').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('show');
+        });
+    </script>
 
 </body>
 
