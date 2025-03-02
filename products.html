@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Page</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles4.css">
+    <style>
+    </style>
+</head>
+<body>
+    <div class="fullbody">
+    <section class="hero">
+        <header class="header">
+            
+            <h1 class="page-name">Perseus <br>Bangladesh</h1>
+            <div class="logo">
+                <img src="/perseus_logo.jpg" alt="Perseus Bangladesh Logo">
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">Get connected</button>
+                <div class="dropdown-content">
+                    <a href="#">Login</a>
+                    <a href="#">Sign Up</a>
+                </div>
+            </div>
+        </header>        
+    </section>
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="sample3.html" class="nav-item">Home</a></li>
+            <li><a href="" class="nav-item">About Us</a></li>
+            <li><a href="" class="nav-item">Contact Us</a></li>
+            <li><a href="" class="nav-item">Reviews</a></li>
+        </ul>
+    </nav>
+    <button class="menu-btn" id="menuToggle">☰</button>
+
+    <header class="bg-primary text-white text-center py-3 ">
+        <h1>Our Products</h1>
+    </header>
+
+    <main class="container my-5">
+        <div class="row">
+            <div class="col-md-4 product-card">
+                <div class="product-image" style="width: 200px; height: 200px; border-radius: 30%; background-color: #f0f0f0; margin: 0 auto 20px;"></div>
+                <h3>Brand: Rolex</h3>
+                <p>Model: Submariner</p>
+                <p>Watch Description: 40mm</p>
+                <p>Color: Black</p>
+                <p class="product-price">৳10,000</p>
+                <button class="btn btn-success mt-2">Buy Now</button>
+            </div>
+            <div class="col-md-4 product-card">
+                <div class="product-image" style="width: 200px; height: 200px; border-radius: 30%; background-color: #f0f0f0; margin: 0 auto 20px;"></div>
+                <h3>Brand: Omega</h3>
+                <p>Model: Seamaster</p>
+                <p>Watch Description: 42mm</p>
+                <p>Color: Blue</p>
+                <p class="product-price">৳7,500</p>
+                <button class="btn btn-success mt-2">Buy Now</button>
+            </div>
+            <div class="col-md-4 product-card">
+                <div class="product-image" style="width: 200px; height: 200px; border-radius: 30%; background-color: #f0f0f0; margin: 0 auto 20px;"></div>
+                <h3>Brand: Tag Heuer</h3>
+                <p>Model: Carrera</p>
+                <p>Watch Description: 43mm</p>
+                <p>Color: Silver</p>
+                <p class="product-price">৳5,000</p>
+                <button class="btn btn-success mt-2">Buy Now</button>
+            </div>
+            <div class="col-md-4 product-card">
+                <div class="product-image" style="width: 200px; height: 200px; border-radius: 30%; background-color: #f0f0f0; margin: 0 auto 20px;"></div>
+                <h3>Brand: Breitling</h3>
+                <p>Model: Navitimer</p>
+                <p>Watch Description: 44mm</p>
+                <p>Color: Brown</p>
+                <p class="product-price">৳8,000</p>
+                <button class="btn btn-success mt-2">Buy Now</button>
+            </div>
+            <div class="col-md-4 product-card">
+                <div class="product-image" style="width: 200px; height: 200px; border-radius: 30%; background-color: #f0f0f0; margin: 0 auto 20px;"></div>
+                <h3>Brand: Patek Philippe</h3>
+                <p>Model: Nautilus</p>
+                <p>Watch Description: 41mm</p>
+                <p>Color: Green</p>
+                <p class="product-price">৳30,000</p>
+                <button class="btn btn-success mt-2">Buy Now</button>
+            </div>
+        </div>
+    </main>
+
+    <section class="newsletter">
+        <h2>Stay Updated!</h2>
+        <p>Subscribe to our newsletter for exclusive offers.</p>
+        <input type="email" placeholder="Enter your email" />
+        <button>Subscribe</button>
+    </section>
+    
+    <a href="index.html">Main Page</a>
+    </div>
+    
+    
+
+    <footer class="footer-content">
+        <div class="footer-section">
+            <h3>About Us</h3>
+            <p>We are a company dedicated to providing the best products and services.</p>
+        </div>
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+        </div>
+    </footer>
+    <div class="footer-bottom">
+        <p>&copy; 2023 Your Company. All rights reserved.</p>
+    </div>
+    
+    <script src="js/countdown.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/accordion.js"></script>
+    <script>
+        document.getElementById('menuToggle').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('show');
+        });
+    </script>
+</body>
+</html>

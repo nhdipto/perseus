@@ -140,11 +140,6 @@ body {
     font-size: 20px;
 }
 
-.nav-item[data-icon="fa-cart"]::after { content: "\f217"; }  /* Watch Icon */
-.nav-item[data-icon="fa-info-circle"]::after { content: "\f05a"; }  /* Info Icon */
-.nav-item[data-icon="fa-envelope"]::after { content: "\f0e0"; }  /* Envelope Icon */
-.nav-item[data-icon="fa-star"]::after { content: "\f005"; }  /* Star Icon */
-
 .menu-btn {
     display: none;
     font-size: 24px;
